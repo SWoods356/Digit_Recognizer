@@ -4,8 +4,7 @@
 # Overview
 This repository features EDA and classification on the [Digit_Recognizer](https://www.kaggle.com/c/digit-recognizer/overview) kaggle data set.
 
-# Bankruptcy Distribution
-The mean bankruptcy rate of this data set is 3.15%.
+The digit recognizer dataset features data representing the pixels of images. Each row has 784 colmuns for 784 pixel values indicting pixel color, representing a 28 x 28 (784) picture.
 
 # EDA and Preparation for Modeling
 
