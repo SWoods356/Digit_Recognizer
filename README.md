@@ -14,6 +14,6 @@ No null data is present. Principal component analysis was used to reduce the dat
 
 Random Forests and K-means clustering were performed to assign a given row the correct label. Random forest models had superior performance, with the test set accuracy score and the number of seconds it took to fit each model below. Note that it took longer to fit random forests to pca reduced data (indexes 1 and 3) than the original data (index 0). K means clustering was the most efficient at 2.95 seconds.
 
+![image](https://user-images.githubusercontent.com/85903905/153774032-eaba1f80-0bc8-4701-997b-746384b934ca.png)
 
-![image](https://user-images.githubusercontent.com/85903905/153773717-0f279bb7-9e6f-4d26-848b-b56d8c5ce879.png)
 
