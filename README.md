@@ -10,7 +10,7 @@ The digit recognizer dataset features data representing the pixels of images. Ea
 
 No null data is present. Principal component analysis was used to reduce the dataset form 784 features to 154 features, retaining 95% of the variation of the original data. Random forests were fitted to the original features and the pca reduced data set mease any time savings from pca reduction.
 
-# Modeling - Random Forests and k-means.
+# Modeling - Random Forests and k-means clustering.
 
 Random Forests and K-means clustering were performed to assign a given row the correct label. Random forest models had superior performance, with the test set accuracy score and the number of seconds it took to fit each model below. Note that it took longer to fit random forests to pca reduced data (indexes 1 and 3) than the original data (index 0). K means clustering was the most efficient at 2.95 seconds.
 
