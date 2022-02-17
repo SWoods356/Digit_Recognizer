@@ -14,6 +14,11 @@ No null data is present. Principal component analysis was used to reduce the dat
 
 Random Forests and K-means clustering were performed to assign a given row the correct label. Random forest models had superior performance, with the test set accuracy score and the number of seconds it took to fit each model below. Note that it took longer to fit random forests to pca reduced data (indexes 1 and 3) than the original data (index 0). K means clustering was the most efficient at 2.95 seconds.
 
-![image](https://user-images.githubusercontent.com/85903905/153774032-eaba1f80-0bc8-4701-997b-746384b934ca.png)
+# Modeling - Neural Nets
+
+Neural Networks were fit and tuned, exploring 1 to 4 layers with nodes between 50 and 500. My best performing neural net used two layers - one layer with 512 nodes and relu activation and one with 350 nodes with tanh activation, sparse categorical cross entropy loss and the RMSprop optimizer. This model achieved 97.83% accuracy on the kaggle test set.
+
+# Model Summary
+![image](https://user-images.githubusercontent.com/85903905/154558869-50d19c96-11cb-41bc-a1f9-ab2146da3bf4.png)
 
 
